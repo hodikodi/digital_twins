@@ -1,0 +1,13 @@
+{
+  "@type": "Property",
+  "name": "address",
+  "schema": {
+    "@type": "Object",
+    "fields": [
+      { "name": "street", "schema": "string" },
+      { "name": "city", "schema": "string" },
+      { "name": "state", "schema": "string" },
+      { "name": "zip", "schema": "string" }
+    ]
+  }
+}

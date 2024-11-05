@@ -1,0 +1,18 @@
+{
+  "@id": "dtmi:com:adt:dtsample:home;1",  // Unique ID for the Home model
+  "@type": "Interface",                   // This is a type of model called "Interface"
+  "@context": "dtmi:dtdl:context;3",      // Version 3 of DTDL is used
+  "displayName": "Home",                  // A friendly name for the model
+  "contents": [
+    {
+      "@type": "Property",                // The model has a property called "id"
+      "name": "id",
+      "schema": "string"
+    },
+    {
+      "@type": "Relationship",            // The model has a relationship to another model called "Floor"
+      "name": "rel_has_floors",
+      "target": "dtmi:com:adt:dtsample:floor;1"
+    }
+  ]
+}

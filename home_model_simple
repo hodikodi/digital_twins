@@ -1,0 +1,5 @@
+{
+  "@type": "Property",
+  "name": "id",
+  "schema": "string"
+}
